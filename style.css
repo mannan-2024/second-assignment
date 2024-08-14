@@ -446,5 +446,150 @@ hr{
     margin:20px;
     
 }
+.menu-logo{
+    width: 60px;
+    height: 60px;
+    visibility: hidden;}
+    
+@media screen and (max-width:576px) {
+    .menubar{
+        visibility:hidden;
+    }
+    .navbar{
+        margin:0 300px;
+         }
+    .menu-logo{
+        margin-left: 600px;
+        width: 60px;
+        height: 60px;
+        visibility:visible;
+    }
+.in-shape{
+    flex-direction: column;
+    margin:0 300px;
+}
+.in-shape-image{
+    padding: 30px;
+}
+.in-shape img{
+    width:100%;
+}
+.tutorial-video{
+    /* left:-75px; */
+    gap:8px;
+}
+.tutorial-video img{
+    width: 35px;
+    height: 35px;
+    /* margin-left: 20px; */
+}
+.habit-change{
+    margin: 0 300px;
+    padding:30px 0;
+}
+.habit-change-images{
+    flex-direction: column;
+}
+.habit-change-images img{
+    width:250px;
+    height:250px;
+}
+.run-extra-mile{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right:  100px;
+    height: 110vh;
+}
+
+.run-extra-mile img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 160px;
+}
+.extra-mile-button{
+    width: 550px;
+}
+.bmi-calculator{
+    margin:0 300px;
+    width: 60%;
+}
+.bmi-calculator-text{
+    margin:10px 50px;
+}
+.calculator{
+    height: 80vh;
+}
+.calculator-container{
+    flex-direction: column;
+    height: 400px;
+    gap:50px;
+    width: 600px;
+
+}
+.table{
+    width: 100px;
+    
+}
+.bmi-chart{
+    width: 400px;
+
+}
+.meet-our-team{
+    margin:0 300px;
+    padding-top:50px;
+}
+.team-container{
+     
+    grid-template-columns:repeat(1,1fr);
+    width: 500px;
+    
+}
+.team-image{
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:30px;
+    padding-right: 50px;
+     
+}
+.name{
+    left:45px;
+}
+.team-image img{
+    width: 400px;
+    height: 350px;
+}
+footer{
+    height: 105vh;
+    margin:0 auto;
+}
+.footer-container{
+    flex-direction: column;
+    width: 800px;
+    margin:0 400px;
+    
+}
+.footer-logo{
+    margin: 0 0;
+    line-height: 20px;}
+
+    .get-started{
+        margin: 0 0;
+    }
+
+    hr{
+        border: 2px solid #413f3f;
+        width: 600px;}
+    
+  .same-type,.download{
+    width: 250px;
+  }
+
+}
 
 
