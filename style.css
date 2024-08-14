@@ -502,7 +502,7 @@ hr{
     padding-bottom: 30px;
     padding-left: 200px;
     padding-right:  100px;
-    height: 110vh;
+    height: 80vh;
 }
 
 .run-extra-mile img{
@@ -523,7 +523,7 @@ hr{
     margin:10px 50px;
 }
 .calculator{
-    height: 80vh;
+    height: 60vh;
 }
 .calculator-container{
     flex-direction: column;
@@ -565,13 +565,13 @@ hr{
     height: 350px;
 }
 footer{
-    height: 105vh;
+    height: 78vh;
     margin:0 auto;
 }
 .footer-container{
     flex-direction: column;
     width: 800px;
-    margin:0 400px;
+    margin:0 500px;
     
 }
 .footer-logo{
